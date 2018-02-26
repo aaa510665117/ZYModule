@@ -37,15 +37,15 @@
 {
     AppDelegate * appDelegate = [UIApplication sharedApplication].delegate;
     NSString * baseURLStr;
-    if(appDelegate.userProfile.firstaidAPIServer && ![appDelegate.userProfile.firstaidAPIServer isEqualToString:@""])
-    {
-        baseURLStr = [NSString stringWithFormat:@"http://%@:%@/%@/%@/",appDelegate.userProfile.firstaidAPIServer,appDelegate.userProfile.firstaidAPIServerPort,SEHTTP_REALM,SEHTTP_VERSION];
-    }
-    else
-    {
-        //@"http://210.14.72.52:80/firstaid/1.0/"];
-        baseURLStr = [NSString stringWithFormat:@"%@:%@/%@/%@/", DEFAULT_SEHTTP_ADDRESS,SEHTTP_PORT,SEHTTP_REALM,SEHTTP_VERSION];
-    }
+//    if(appDelegate.userProfile.firstaidAPIServer && ![appDelegate.userProfile.firstaidAPIServer isEqualToString:@""])
+//    {
+//        baseURLStr = [NSString stringWithFormat:@"http://%@:%@/%@/%@/",appDelegate.userProfile.firstaidAPIServer,appDelegate.userProfile.firstaidAPIServerPort,SEHTTP_REALM,SEHTTP_VERSION];
+//    }
+//    else
+//    {
+//        //@"http://210.14.72.52:80/firstaid/1.0/"];
+//        baseURLStr = [NSString stringWithFormat:@"%@:%@/%@/%@/", DEFAULT_SEHTTP_ADDRESS,SEHTTP_PORT,SEHTTP_REALM,SEHTTP_VERSION];
+//    }
     return baseURLStr;
 }
 

@@ -39,17 +39,17 @@ static dispatch_once_t onceToken;
 + (NSString *)baseURLStr
 {
     AppDelegate * appDelegate = [UIApplication sharedApplication].delegate;
-    //接口地址，上线修改为服务器获取
-    NSString * baseURLStr;
-    if(appDelegate.userProfile.firstaidAPIServer && ![appDelegate.userProfile.firstaidAPIServer isEqualToString:@""])
-    {
-        baseURLStr = [NSString stringWithFormat:@"http://%@:%@/%@/%@/",appDelegate.userProfile.firstaidAPIServer,appDelegate.userProfile.firstaidAPIServerPort,SEHTTP_REALM,SEHTTP_VERSION];
-    }
-    else
-    {
-        //@"http://192.168.20.13:80/firstaid/1.0/"];
-        baseURLStr = [NSString stringWithFormat:@"%@:%@/%@/%@/", DEFAULT_SEHTTP_ADDRESS,SEHTTP_PORT,SEHTTP_REALM,SEHTTP_VERSION];
-    }
+//    //接口地址，上线修改为服务器获取
+//    NSString * baseURLStr;
+//    if(appDelegate.userProfile.firstaidAPIServer && ![appDelegate.userProfile.firstaidAPIServer isEqualToString:@""])
+//    {
+//        baseURLStr = [NSString stringWithFormat:@"http://%@:%@/%@/%@/",appDelegate.userProfile.firstaidAPIServer,appDelegate.userProfile.firstaidAPIServerPort,SEHTTP_REALM,SEHTTP_VERSION];
+//    }
+//    else
+//    {
+//        //@"http://192.168.20.13:80/firstaid/1.0/"];
+//        baseURLStr = [NSString stringWithFormat:@"%@:%@/%@/%@/", DEFAULT_SEHTTP_ADDRESS,SEHTTP_PORT,SEHTTP_REALM,SEHTTP_VERSION];
+//    }
     
     return baseURLStr;
 }
