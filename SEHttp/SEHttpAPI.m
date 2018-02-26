@@ -38,7 +38,7 @@ static dispatch_once_t onceToken;
 
 + (NSString *)baseURLStr
 {
-    AppDelegate * appDelegate = [AppDelegate appDelegate];
+    AppDelegate * appDelegate = [UIApplication sharedApplication].delegate;
     //接口地址，上线修改为服务器获取
     NSString * baseURLStr;
     if(appDelegate.userProfile.firstaidAPIServer && ![appDelegate.userProfile.firstaidAPIServer isEqualToString:@""])
