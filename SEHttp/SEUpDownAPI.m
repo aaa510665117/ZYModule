@@ -35,7 +35,7 @@
 
 + (NSString *)baseURLStr
 {
-    AppDelegate * appDelegate = [UIApplication sharedApplication].delegate;
+//    AppDelegate * appDelegate = [UIApplication sharedApplication].delegate;
     NSString * baseURLStr;
 //    if(appDelegate.userProfile.firstaidAPIServer && ![appDelegate.userProfile.firstaidAPIServer isEqualToString:@""])
 //    {

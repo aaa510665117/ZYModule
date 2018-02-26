@@ -38,9 +38,9 @@ static dispatch_once_t onceToken;
 
 + (NSString *)baseURLStr
 {
-    AppDelegate * appDelegate = [UIApplication sharedApplication].delegate;
+//    AppDelegate * appDelegate = [UIApplication sharedApplication].delegate;
 //    //接口地址，上线修改为服务器获取
-//    NSString * baseURLStr;
+    NSString * baseURLStr;
 //    if(appDelegate.userProfile.firstaidAPIServer && ![appDelegate.userProfile.firstaidAPIServer isEqualToString:@""])
 //    {
 //        baseURLStr = [NSString stringWithFormat:@"http://%@:%@/%@/%@/",appDelegate.userProfile.firstaidAPIServer,appDelegate.userProfile.firstaidAPIServerPort,SEHTTP_REALM,SEHTTP_VERSION];
@@ -262,8 +262,8 @@ static dispatch_once_t onceToken;
 //基本错误码分析
 +(void)analysisErrorCode:(NSDictionary *)code withRequestAdd:(NSString *)requestAdd
 {
-    NSString * codeStr = [code objectForKey:HTTP_RETURN_KEY];
-    NSString * msgStr = [code objectForKey:HTTP_RETURN_MSG];
+    NSString * codeStr = [code objectForKey:@"code"];
+    NSString * msgStr = [code objectForKey:@"msg"];
 
     if(msgStr.length == 0 || [msgStr class] == [NSNull null])
     {
