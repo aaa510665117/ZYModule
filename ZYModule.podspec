@@ -91,8 +91,17 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SEHttp", "SEHttp/**/*.{h,m}"
-  #"ZYModule/**/*.{h,m}"
+  
+  #s.source_files  = "ZYModule"
+  #s.source_files = "ZYModule/**/*.{h,m}"
+
+
+  s.default_subspecs = 'SEHttp'
+  s.subspec 'SEHttp' do |ss|
+    ss.source_files         = 'ZYModule/SEHttp/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/SEHttp/*.h'
+  end
+
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
