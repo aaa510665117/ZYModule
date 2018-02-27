@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "ZYModule", "ZYModule/**/*.{h,m}" 
   #"ZYModule/**/*.{h,m}"
-  #s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
