@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ZYModule", "ZYModule/**/*.{h,m}" 
+  s.source_files  = "ZYModule/*.{h,m}"
   #"ZYModule/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
@@ -135,9 +135,9 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency "AFNetworking"
-  s.dependency "UAProgressView"
-  s.dependency "SBJson5", "~>5.0.0"
-  s.dependency "TMCache"
+  #s.dependency "AFNetworking"
+  #s.dependency "UAProgressView"
+  #s.dependency "SBJson5", "~>5.0.0"
+  #s.dependency "TMCache"
 
 end
