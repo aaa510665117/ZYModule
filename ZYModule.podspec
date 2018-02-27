@@ -102,6 +102,12 @@ Pod::Spec.new do |s|
     #ss.public_header_files  = 'ZYModule/SEHttp/*.h'
   end
 
+  s.default_subspecs = 'DiyMJRefresh'
+  s.subspec 'SEHttp' do |ss|
+    ss.source_files         = 'ZYModule/DiyMJRefresh/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/DiyMJRefresh/*.h'
+  end
+
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
