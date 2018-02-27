@@ -26,7 +26,7 @@
     label.textColor = [UIColor colorWithWhite:0.600 alpha:1.000];
     label.font = [UIFont boldSystemFontOfSize:12];
     label.textAlignment = NSTextAlignmentCenter;
-    label.frame = CGRectMake(0, 0, UISCREEN_BOUNDS_SIZE.width, 20);
+    label.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 20);
     [self addSubview:label];
     label.text = @"~~~";
     self.label = label;

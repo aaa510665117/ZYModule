@@ -103,7 +103,8 @@ Pod::Spec.new do |s|
   end
 
   s.default_subspecs = 'DiyMJRefresh'
-  s.subspec 'SEHttp' do |ss|
+  s.subspec 'DiyMJRefresh' do |ss|
+    ss.dependency "MJRefresh"
     ss.source_files         = 'ZYModule/DiyMJRefresh/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/DiyMJRefresh/*.h'
   end
