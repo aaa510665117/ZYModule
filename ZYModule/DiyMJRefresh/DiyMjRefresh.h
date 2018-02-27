@@ -11,8 +11,4 @@
 
 @interface DiyMjRefresh : MJRefreshGifHeader
 
--(void)prepare;
-
--(void)placeSubviews;
-
 @end
