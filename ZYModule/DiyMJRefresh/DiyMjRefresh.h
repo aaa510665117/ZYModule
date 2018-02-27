@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "MJRefreshGifHeader.h"
 
-@interface DiyMjRefresh : MJRefreshGifHeader
+@interface DiyMjRefresh : UIView//MJRefreshGifHeader
+
+-(void)prepare;
+
+-(void)placeSubviews;
 
 @end

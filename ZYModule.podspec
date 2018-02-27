@@ -155,6 +155,6 @@ Pod::Spec.new do |s|
   #s.dependency "AFNetworking"
   #s.dependency "UAProgressView"
   #s.dependency "SBJson5", "~>5.0.0"
-  #s.dependency "TMCache"
+  #s.dependency "MJRefresh"
 
 end
