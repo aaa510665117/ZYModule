@@ -111,6 +111,11 @@ Pod::Spec.new do |s|
     #ss.public_header_files  = 'ZYModule/DiyMJRefresh/*.h'
   end
 
+  s.subspec 'ZYExtenClass' do |ss|
+    ss.source_files          = 'ZYModule/ZYExtenClass/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/ZYExtenClass/*.h'
+  end
+
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

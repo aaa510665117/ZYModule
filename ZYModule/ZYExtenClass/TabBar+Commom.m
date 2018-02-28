@@ -26,7 +26,7 @@
     dotView.frame = CGRectMake(x, 0, tabFrame.size.width/TabBarNum, tabFrame.size.height);
     
     UILabel * lineLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, -0.5, dotView.frame.size.width, 1)];
-    lineLabel.backgroundColor = [UIColor appColor];
+    lineLabel.backgroundColor = [UIColor colorWithRed:0.867 green:0.251 blue:0.231 alpha:1.000];
     [dotView addSubview:lineLabel];
     [self insertSubview:dotView atIndex:1];
 }
@@ -51,7 +51,7 @@
     UIView *dotView = [[UIView alloc]init];
     dotView.tag = 4802 + index;
     dotView.layer.cornerRadius = 5;
-    dotView.backgroundColor = [UIColor appColor];
+    dotView.backgroundColor = [UIColor colorWithRed:0.867 green:0.251 blue:0.231 alpha:1.000];
     CGRect tabFrame = self.frame;
     
     //frame
