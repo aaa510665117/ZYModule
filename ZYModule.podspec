@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYModule"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A short description of ZYModule."
 
   # This description is used to generate tags and improve search results.
@@ -96,17 +96,18 @@ Pod::Spec.new do |s|
   #s.source_files = "ZYModule/**/*.{h,m}"
 
 
-  s.default_subspecs = 'SEHttp'
+  #s.default_subspecs = 'SEHttp'
   s.subspec 'SEHttp' do |ss|
-    ss.source_files         = 'ZYModule/SEHttp/*.{h,m}'
+    ss.source_files          = 'ZYModule/SEHttp/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/SEHttp/*.h'
   end
 
-  s.default_subspecs = 'DiyMJRefresh'
+  #s.default_subspecs = 'DiyMJRefresh'
   s.subspec 'DiyMJRefresh' do |ss|
 
     ss.dependency 'MJRefresh'
     ss.source_files         = 'ZYModule/DiyMJRefresh/*.{h,m}'
+    #ss.resource     	    = 'ZYModule/DiyMJRefresh/DiyMJRefresh.bundle'
     #ss.public_header_files  = 'ZYModule/DiyMJRefresh/*.h'
   end
 
