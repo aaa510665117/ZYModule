@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A72A8C42047DEA70091F460 /* ZYToolsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72A8C32047DEA70091F460 /* ZYToolsFunction.m */; };
 		1ADAA54B20467F6B0017C649 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA54A20467F6B0017C649 /* AppDelegate.m */; };
 		1ADAA54E20467F6B0017C649 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA54D20467F6B0017C649 /* ViewController.m */; };
 		1ADAA55120467F6B0017C649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAA54F20467F6B0017C649 /* Main.storyboard */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A72A8C22047DEA70091F460 /* ZYToolsFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYToolsFunction.h; sourceTree = "<group>"; };
+		1A72A8C32047DEA70091F460 /* ZYToolsFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYToolsFunction.m; sourceTree = "<group>"; };
 		1ADAA54620467F6B0017C649 /* ZYModuleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYModuleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADAA54920467F6B0017C649 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1ADAA54A20467F6B0017C649 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,6 +123,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		1A72A8C12047DEA70091F460 /* ZYToolsFunction */ = {
+			isa = PBXGroup;
+			children = (
+				1A72A8C22047DEA70091F460 /* ZYToolsFunction.h */,
+				1A72A8C32047DEA70091F460 /* ZYToolsFunction.m */,
+			);
+			path = ZYToolsFunction;
+			sourceTree = "<group>";
+		};
 		1ADAA53D20467F6B0017C649 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +193,7 @@
 		1ADAA57C204680F50017C649 /* ZYModule */ = {
 			isa = PBXGroup;
 			children = (
+				1A72A8C12047DEA70091F460 /* ZYToolsFunction */,
 				1ADAA57D204680F50017C649 /* DiyMJRefresh */,
 				1ADAA580204680F50017C649 /* SEHttp */,
 				1ADAA583204680F50017C649 /* ZYExtenClass */,
@@ -437,6 +450,7 @@
 				1ADAA54B20467F6B0017C649 /* AppDelegate.m in Sources */,
 				1ADAA594204680F50017C649 /* CALayer+Additions.m in Sources */,
 				1ADAA595204680F50017C649 /* NSDate+Common.m in Sources */,
+				1A72A8C42047DEA70091F460 /* ZYToolsFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
