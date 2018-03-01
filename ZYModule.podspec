@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYModule"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A short description of ZYModule."
 
   # This description is used to generate tags and improve search results.
@@ -114,6 +114,11 @@ Pod::Spec.new do |s|
   s.subspec 'ZYExtenClass' do |ss|
     ss.source_files          = 'ZYModule/ZYExtenClass/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYExtenClass/*.h'
+  end
+
+  s.subspec 'ZYToolsFunction' do |ss|
+    ss.source_files          = 'ZYModule/ZYToolsFunction/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/ZYToolsFunction/*.h'
   end
 
   s.exclude_files = "Classes/Exclude"
