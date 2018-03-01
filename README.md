@@ -23,11 +23,11 @@ ZYExternClass
 **UIImge+Blur    （cannot find interface declaration for 'UIImage'）报错解决 需在pch文件内引入#import <UIKit/UIKit.h>
 
 
-shell:
-pod spec create JHDynamicFont
-git tag -m"pod spec" "0.0.1"
-git push origin --tags
-pod trunk me(login in)
-pod lib lint --allow-warnings
-pod sepc lint --allow-warnings
+shell:  
+pod spec create JHDynamicFont  
+git tag -m"pod spec" "0.0.1"  
+git push origin --tags  
+pod trunk me(login in)  
+pod lib lint --allow-warnings  
+pod sepc lint --allow-warnings  
 pod trunk push JHDynamicFont.podspec --allow-warnings
