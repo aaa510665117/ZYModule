@@ -22,6 +22,9 @@ DiyMjRefresh
 ZYExternClass  
 **UIImge+Blur    （cannot find interface declaration for 'UIImage'）报错解决 需在pch文件内引入#import <UIKit/UIKit.h>
 
+### 常用方法组件
+ZYToolsFunction
+
 
 shell:  
 pod spec create JHDynamicFont  
