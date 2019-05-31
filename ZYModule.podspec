@@ -131,8 +131,8 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'ZYExtenClass' do |ss|
-    ss.source_files          = 'ZYModule/ZYExtenClass/*.{h,m}'
-    #ss.public_header_files  = 'ZYModule/ZYExtenClass/*.h'
+    ss.source_files          = 'ZYModule/ZYExternClass/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/ZYExternClass/*.h'
   end
 
   #s.default_subspecs = 'SEHttp'

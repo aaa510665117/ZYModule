@@ -10,27 +10,36 @@
 
 ##  use:     pod 'ZYModule'  
 
+### 语音录入相关 
+AudioVoice
 
+### 自定义刷新组件   
+DiyMjRefresh 
+
+### 指纹识别组件  
+FingerVerification
+
+### 语音识别组件  
+SpeechRecognizer
+
+### 数据库  
+ZYDataBaseManager
+
+### 扩展类  
+ZYExternClass
 
 ### 网络请求相关 
 SEHttp  
-
-### 自定义刷新组件   
-DiyMjRefresh   
-
-### 自定义扩展组件
-ZYExternClass  
-**UIImge+Blur    （cannot find interface declaration for 'UIImage'）报错解决 需在pch文件内引入#import <UIKit/UIKit.h>
 
 ### 常用方法组件
 ZYToolsFunction
 
 
 shell:  
-pod spec create JHDynamicFont  
+pod spec create ZYModule  
 git tag -m"pod spec" "0.0.1"  
 git push origin --tags  
 pod trunk me(login in)  
 pod lib lint --allow-warnings  
 pod sepc lint --allow-warnings  
-pod trunk push JHDynamicFont.podspec --allow-warnings
+pod trunk push ZYModule.podspec --allow-warnings
