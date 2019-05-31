@@ -102,7 +102,6 @@ Pod::Spec.new do |s|
     #ss.public_header_files  = 'ZYModule/AudioVoice/*.h'
   end
 
-  #s.default_subspecs = 'DiyMJRefresh'
   s.subspec 'DiyMJRefresh' do |ss|
 
     ss.dependency 'MJRefresh'
@@ -111,19 +110,16 @@ Pod::Spec.new do |s|
     #ss.public_header_files  = 'ZYModule/DiyMJRefresh/*.h'
   end
 
-  #s.default_subspecs = 'FingerVerification'
   s.subspec 'FingerVerification' do |ss|
     ss.source_files          = 'ZYModule/FingerVerification/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/FingerVerification/*.h'
   end
 
-  #s.default_subspecs = 'SpeechRecognizer'
   s.subspec 'SpeechRecognizer' do |ss|
     ss.source_files          = 'ZYModule/SpeechRecognizer/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/SpeechRecognizer/*.h'
   end
 
-  #s.default_subspecs = 'ZYDataBaseManager'
   s.subspec 'ZYDataBaseManager' do |ss|
     ss.dependency 'FMDB'
     ss.source_files          = 'ZYModule/ZYDataBaseManager/*.{h,m}'
@@ -136,9 +132,9 @@ Pod::Spec.new do |s|
     #ss.public_header_files  = 'ZYModule/ZYExternClass/*.h'
   end
 
-  #s.default_subspecs = 'ZYHttp'
   s.subspec 'ZYHttp' do |ss|
     ss.dependency 'AFNetworking'
+    ss.dependency 'TMCache'
     ss.source_files          = 'ZYModule/ZYHttp/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYHttp/*.h'
   end
