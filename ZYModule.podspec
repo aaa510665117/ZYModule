@@ -122,6 +122,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'ZYDataBaseManager' do |ss|
     ss.dependency 'FMDB'
+    ss.dependency 'LKDBHelper'
     ss.source_files          = 'ZYModule/ZYDataBaseManager/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYDataBaseManager/*.h'
   end

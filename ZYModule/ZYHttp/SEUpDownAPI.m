@@ -7,7 +7,7 @@
 //
 
 #import "SEUpDownAPI.h"
-#import "HttpConfig.h"
+//#import "HttpConfig.h"
 //#import "AppDelegate.h"
 #import "TMCache.h"
 
