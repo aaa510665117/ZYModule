@@ -136,8 +136,8 @@ Pod::Spec.new do |s|
     #ss.public_header_files  = 'ZYModule/ZYExternClass/*.h'
   end
 
-  #s.default_subspecs = 'SEHttp'
-  s.subspec 'SEHttp' do |ss|
+  #s.default_subspecs = 'ZYHttp'
+  s.subspec 'ZYHttp' do |ss|
     ss.dependency 'AFNetworking'
     ss.source_files          = 'ZYModule/ZYHttp/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYHttp/*.h'
@@ -145,6 +145,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'ZYToolsFunction' do |ss|
     ss.dependency 'MBProgressHUD'
+    ss.dependency 'SVProgressHUD'
     ss.source_files          = 'ZYModule/ZYToolsFunction/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYToolsFunction/*.h'
   end
