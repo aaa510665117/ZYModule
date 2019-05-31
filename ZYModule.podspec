@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYModule"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "A short description of ZYModule."
 
   # This description is used to generate tags and improve search results.
@@ -96,10 +96,10 @@ Pod::Spec.new do |s|
   #s.source_files = "ZYModule/**/*.{h,m}"
 
 
-  #s.default_subspecs = 'SEHttp'
-  s.subspec 'SEHttp' do |ss|
-    ss.source_files          = 'ZYModule/SEHttp/*.{h,m}'
-    #ss.public_header_files  = 'ZYModule/SEHttp/*.h'
+  #s.default_subspecs = 'AudioVoice'
+  s.subspec 'AudioVoice' do |ss|
+    ss.source_files          = 'ZYModule/AudioVoice/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/AudioVoice/*.h'
   end
 
   #s.default_subspecs = 'DiyMJRefresh'
@@ -111,9 +111,34 @@ Pod::Spec.new do |s|
     #ss.public_header_files  = 'ZYModule/DiyMJRefresh/*.h'
   end
 
+  #s.default_subspecs = 'FingerVerification'
+  s.subspec 'FingerVerification' do |ss|
+    ss.source_files          = 'ZYModule/FingerVerification/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/FingerVerification/*.h'
+  end
+
+  #s.default_subspecs = 'SpeechRecognizer'
+  s.subspec 'SpeechRecognizer' do |ss|
+    ss.source_files          = 'ZYModule/SpeechRecognizer/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/SpeechRecognizer/*.h'
+  end
+
+  #s.default_subspecs = 'ZYDataBaseManager'
+  s.subspec 'ZYDataBaseManager' do |ss|
+    ss.dependency 'FMDB'
+    ss.source_files          = 'ZYModule/ZYDataBaseManager/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/ZYDataBaseManager/*.h'
+  end
+
   s.subspec 'ZYExtenClass' do |ss|
     ss.source_files          = 'ZYModule/ZYExtenClass/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYExtenClass/*.h'
+  end
+
+  #s.default_subspecs = 'SEHttp'
+  s.subspec 'SEHttp' do |ss|
+    ss.source_files          = 'ZYModule/ZYHttp/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/ZYHttp/*.h'
   end
 
   s.subspec 'ZYToolsFunction' do |ss|
@@ -162,7 +187,7 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  #s.dependency "Masonry"
   #s.dependency "AFNetworking"
   #s.dependency "UAProgressView"
   #s.dependency "SBJson5", "~>5.0.0"

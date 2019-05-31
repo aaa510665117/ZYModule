@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A72A8C42047DEA70091F460 /* ZYToolsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72A8C32047DEA70091F460 /* ZYToolsFunction.m */; };
 		1ADAA54B20467F6B0017C649 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA54A20467F6B0017C649 /* AppDelegate.m */; };
 		1ADAA54E20467F6B0017C649 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA54D20467F6B0017C649 /* ViewController.m */; };
 		1ADAA55120467F6B0017C649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAA54F20467F6B0017C649 /* Main.storyboard */; };
@@ -16,15 +15,6 @@
 		1ADAA55920467F6B0017C649 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA55820467F6B0017C649 /* main.m */; };
 		1ADAA56320467F6B0017C649 /* ZYModuleExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA56220467F6B0017C649 /* ZYModuleExampleTests.m */; };
 		1ADAA56E20467F6B0017C649 /* ZYModuleExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA56D20467F6B0017C649 /* ZYModuleExampleUITests.m */; };
-		1ADAA592204680F50017C649 /* DiyMjRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA57F204680F50017C649 /* DiyMjRefresh.m */; };
-		1ADAA593204680F50017C649 /* SEServerAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA582204680F50017C649 /* SEServerAddress.m */; };
-		1ADAA594204680F50017C649 /* CALayer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA585204680F50017C649 /* CALayer+Additions.m */; };
-		1ADAA595204680F50017C649 /* NSDate+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA587204680F50017C649 /* NSDate+Common.m */; };
-		1ADAA596204680F50017C649 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA589204680F50017C649 /* NSDate+Helper.m */; };
-		1ADAA597204680F50017C649 /* NSDictionary+Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA58B204680F50017C649 /* NSDictionary+Accessors.m */; };
-		1ADAA598204680F50017C649 /* NSString+Code.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA58D204680F50017C649 /* NSString+Code.m */; };
-		1ADAA599204680F50017C649 /* TabBar+Commom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA58F204680F50017C649 /* TabBar+Commom.m */; };
-		1ADAA59A204680F50017C649 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAA591204680F50017C649 /* UIImage+Blur.m */; };
 		ACF61EABAB185A0B0F3BF64E /* libPods-ZYModuleExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 288D12D2950C584F15F68DA2 /* libPods-ZYModuleExample.a */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A72A8C22047DEA70091F460 /* ZYToolsFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYToolsFunction.h; sourceTree = "<group>"; };
-		1A72A8C32047DEA70091F460 /* ZYToolsFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYToolsFunction.m; sourceTree = "<group>"; };
 		1ADAA54620467F6B0017C649 /* ZYModuleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYModuleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADAA54920467F6B0017C649 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1ADAA54A20467F6B0017C649 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,24 +52,6 @@
 		1ADAA56920467F6B0017C649 /* ZYModuleExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYModuleExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADAA56D20467F6B0017C649 /* ZYModuleExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYModuleExampleUITests.m; sourceTree = "<group>"; };
 		1ADAA56F20467F6B0017C649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1ADAA57E204680F50017C649 /* DiyMjRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiyMjRefresh.h; sourceTree = "<group>"; };
-		1ADAA57F204680F50017C649 /* DiyMjRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiyMjRefresh.m; sourceTree = "<group>"; };
-		1ADAA581204680F50017C649 /* SEServerAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEServerAddress.h; sourceTree = "<group>"; };
-		1ADAA582204680F50017C649 /* SEServerAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEServerAddress.m; sourceTree = "<group>"; };
-		1ADAA584204680F50017C649 /* CALayer+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Additions.h"; sourceTree = "<group>"; };
-		1ADAA585204680F50017C649 /* CALayer+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Additions.m"; sourceTree = "<group>"; };
-		1ADAA586204680F50017C649 /* NSDate+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Common.h"; sourceTree = "<group>"; };
-		1ADAA587204680F50017C649 /* NSDate+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Common.m"; sourceTree = "<group>"; };
-		1ADAA588204680F50017C649 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
-		1ADAA589204680F50017C649 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
-		1ADAA58A204680F50017C649 /* NSDictionary+Accessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Accessors.h"; sourceTree = "<group>"; };
-		1ADAA58B204680F50017C649 /* NSDictionary+Accessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Accessors.m"; sourceTree = "<group>"; };
-		1ADAA58C204680F50017C649 /* NSString+Code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Code.h"; sourceTree = "<group>"; };
-		1ADAA58D204680F50017C649 /* NSString+Code.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Code.m"; sourceTree = "<group>"; };
-		1ADAA58E204680F50017C649 /* TabBar+Commom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TabBar+Commom.h"; sourceTree = "<group>"; };
-		1ADAA58F204680F50017C649 /* TabBar+Commom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TabBar+Commom.m"; sourceTree = "<group>"; };
-		1ADAA590204680F50017C649 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
-		1ADAA591204680F50017C649 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
 		1ADAA59B204685480017C649 /* ZYModule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZYModule-Prefix.pch"; sourceTree = "<group>"; };
 		288D12D2950C584F15F68DA2 /* libPods-ZYModuleExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYModuleExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED595C9B5E9918BDE961458 /* Pods-ZYModuleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYModuleExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYModuleExample/Pods-ZYModuleExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,15 +93,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		1A72A8C12047DEA70091F460 /* ZYToolsFunction */ = {
-			isa = PBXGroup;
-			children = (
-				1A72A8C22047DEA70091F460 /* ZYToolsFunction.h */,
-				1A72A8C32047DEA70091F460 /* ZYToolsFunction.m */,
-			);
-			path = ZYToolsFunction;
-			sourceTree = "<group>";
-		};
 		1ADAA53D20467F6B0017C649 = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +118,6 @@
 		1ADAA54820467F6B0017C649 /* ZYModuleExample */ = {
 			isa = PBXGroup;
 			children = (
-				1ADAA57C204680F50017C649 /* ZYModule */,
 				1ADAA54920467F6B0017C649 /* AppDelegate.h */,
 				1ADAA54A20467F6B0017C649 /* AppDelegate.m */,
 				1ADAA54C20467F6B0017C649 /* ViewController.h */,
@@ -188,56 +148,6 @@
 				1ADAA56F20467F6B0017C649 /* Info.plist */,
 			);
 			path = ZYModuleExampleUITests;
-			sourceTree = "<group>";
-		};
-		1ADAA57C204680F50017C649 /* ZYModule */ = {
-			isa = PBXGroup;
-			children = (
-				1A72A8C12047DEA70091F460 /* ZYToolsFunction */,
-				1ADAA57D204680F50017C649 /* DiyMJRefresh */,
-				1ADAA580204680F50017C649 /* SEHttp */,
-				1ADAA583204680F50017C649 /* ZYExtenClass */,
-			);
-			path = ZYModule;
-			sourceTree = "<group>";
-		};
-		1ADAA57D204680F50017C649 /* DiyMJRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				1ADAA57E204680F50017C649 /* DiyMjRefresh.h */,
-				1ADAA57F204680F50017C649 /* DiyMjRefresh.m */,
-			);
-			path = DiyMJRefresh;
-			sourceTree = "<group>";
-		};
-		1ADAA580204680F50017C649 /* SEHttp */ = {
-			isa = PBXGroup;
-			children = (
-				1ADAA581204680F50017C649 /* SEServerAddress.h */,
-				1ADAA582204680F50017C649 /* SEServerAddress.m */,
-			);
-			path = SEHttp;
-			sourceTree = "<group>";
-		};
-		1ADAA583204680F50017C649 /* ZYExtenClass */ = {
-			isa = PBXGroup;
-			children = (
-				1ADAA584204680F50017C649 /* CALayer+Additions.h */,
-				1ADAA585204680F50017C649 /* CALayer+Additions.m */,
-				1ADAA586204680F50017C649 /* NSDate+Common.h */,
-				1ADAA587204680F50017C649 /* NSDate+Common.m */,
-				1ADAA588204680F50017C649 /* NSDate+Helper.h */,
-				1ADAA589204680F50017C649 /* NSDate+Helper.m */,
-				1ADAA58A204680F50017C649 /* NSDictionary+Accessors.h */,
-				1ADAA58B204680F50017C649 /* NSDictionary+Accessors.m */,
-				1ADAA58C204680F50017C649 /* NSString+Code.h */,
-				1ADAA58D204680F50017C649 /* NSString+Code.m */,
-				1ADAA58E204680F50017C649 /* TabBar+Commom.h */,
-				1ADAA58F204680F50017C649 /* TabBar+Commom.m */,
-				1ADAA590204680F50017C649 /* UIImage+Blur.h */,
-				1ADAA591204680F50017C649 /* UIImage+Blur.m */,
-			);
-			path = ZYExtenClass;
 			sourceTree = "<group>";
 		};
 		35B7D893864C357C4D5FADBB /* Frameworks */ = {
@@ -438,19 +348,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADAA597204680F50017C649 /* NSDictionary+Accessors.m in Sources */,
 				1ADAA54E20467F6B0017C649 /* ViewController.m in Sources */,
-				1ADAA592204680F50017C649 /* DiyMjRefresh.m in Sources */,
-				1ADAA593204680F50017C649 /* SEServerAddress.m in Sources */,
 				1ADAA55920467F6B0017C649 /* main.m in Sources */,
-				1ADAA596204680F50017C649 /* NSDate+Helper.m in Sources */,
-				1ADAA59A204680F50017C649 /* UIImage+Blur.m in Sources */,
-				1ADAA598204680F50017C649 /* NSString+Code.m in Sources */,
-				1ADAA599204680F50017C649 /* TabBar+Commom.m in Sources */,
 				1ADAA54B20467F6B0017C649 /* AppDelegate.m in Sources */,
-				1ADAA594204680F50017C649 /* CALayer+Additions.m in Sources */,
-				1ADAA595204680F50017C649 /* NSDate+Common.m in Sources */,
-				1A72A8C42047DEA70091F460 /* ZYToolsFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
