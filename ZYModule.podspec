@@ -137,11 +137,13 @@ Pod::Spec.new do |s|
 
   #s.default_subspecs = 'SEHttp'
   s.subspec 'SEHttp' do |ss|
+    ss.dependency 'AFNetworking'
     ss.source_files          = 'ZYModule/ZYHttp/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYHttp/*.h'
   end
 
   s.subspec 'ZYToolsFunction' do |ss|
+    ss.dependency 'MBProgressHUD'
     ss.source_files          = 'ZYModule/ZYToolsFunction/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYToolsFunction/*.h'
   end
