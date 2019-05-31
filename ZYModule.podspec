@@ -131,6 +131,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'ZYExtenClass' do |ss|
+    ss.dependency 'Masonry'
     ss.source_files          = 'ZYModule/ZYExternClass/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYExternClass/*.h'
   end
