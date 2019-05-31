@@ -7,6 +7,7 @@
 //  无数据界面
 
 #import <Foundation/Foundation.h>
+#import <Masonry/Masonry.h>
 
 @interface UIScrollView(WarnPage)
 
