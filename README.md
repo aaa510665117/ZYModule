@@ -16,9 +16,6 @@ AudioVoice
 ### 自定义刷新组件   
 DiyMjRefresh 
 
-### 指纹识别组件  
-FingerVerification
-
 ### 语音识别组件  
 SpeechRecognizer
 

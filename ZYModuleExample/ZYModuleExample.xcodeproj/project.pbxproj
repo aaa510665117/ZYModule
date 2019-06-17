@@ -169,7 +169,6 @@
 				1ADAA54220467F6B0017C649 /* Sources */,
 				1ADAA54320467F6B0017C649 /* Frameworks */,
 				1ADAA54420467F6B0017C649 /* Resources */,
-				FA5611F6E202164A8D990FFC /* [CP] Embed Pods Frameworks */,
 				ED3222485DD63C4E11B95A7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -314,31 +313,18 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZYModuleExample/Pods-ZYModuleExample-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ZYModuleExample/Pods-ZYModuleExample-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYModuleExample/Pods-ZYModuleExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA5611F6E202164A8D990FFC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYModuleExample/Pods-ZYModuleExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZYModuleExample/Pods-ZYModuleExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

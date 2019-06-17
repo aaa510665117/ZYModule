@@ -4,5 +4,13 @@
 target 'ZYModuleExample' do
   inhibit_all_warnings!
   pod 'ZYModule'
+#  pod 'MJRefresh'
+#  pod 'FMDB'
+#  pod 'LKDBHelper'
+#  pod 'Masonry'
+#  pod 'TMCache'
+#  pod 'AFNetworking'
+#  pod 'MBProgressHUD'
+#  pod 'SVProgressHUD'
 
 end

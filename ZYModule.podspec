@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYModule"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "A short description of ZYModule."
 
   # This description is used to generate tags and improve search results.
@@ -108,11 +108,6 @@ Pod::Spec.new do |s|
     ss.source_files         = 'ZYModule/DiyMJRefresh/*.{h,m}'
     #ss.resource     	    = 'ZYModule/DiyMJRefresh/DiyMJRefresh.bundle'
     #ss.public_header_files  = 'ZYModule/DiyMJRefresh/*.h'
-  end
-
-  s.subspec 'FingerVerification' do |ss|
-    ss.source_files          = 'ZYModule/FingerVerification/*.{h,m}'
-    #ss.public_header_files  = 'ZYModule/FingerVerification/*.h'
   end
 
   s.subspec 'SpeechRecognizer' do |ss|
