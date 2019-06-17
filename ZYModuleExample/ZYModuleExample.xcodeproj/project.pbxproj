@@ -118,6 +118,7 @@
 		1ADAA54820467F6B0017C649 /* ZYModuleExample */ = {
 			isa = PBXGroup;
 			children = (
+				DE91F14922B76F4E00239350 /* ZYModuleTest */,
 				1ADAA54920467F6B0017C649 /* AppDelegate.h */,
 				1ADAA54A20467F6B0017C649 /* AppDelegate.m */,
 				1ADAA54C20467F6B0017C649 /* ViewController.h */,
@@ -156,6 +157,13 @@
 				288D12D2950C584F15F68DA2 /* libPods-ZYModuleExample.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE91F14922B76F4E00239350 /* ZYModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZYModuleTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
