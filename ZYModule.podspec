@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYModule"
-  s.version      = "1.0.9"
+  s.version      = "1.0.11"
   s.summary      = "A short description of ZYModule."
 
   # This description is used to generate tags and improve search results.
@@ -149,10 +149,14 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'ZYUnility' do |ss|
-    ss.dependency 'MBProgressHUD'
-    ss.dependency 'SVProgressHUD'
-    ss.source_files         = 'ZYModule/ZYUnility/*/*.{h,m}'
-    #ss.public_header_files  = 'ZYModule/ZYUnility/*/*.h'
+
+    s.subspec 'HUD' do |ss|
+        ss.dependency 'MBProgressHUD'
+    	ss.dependency 'SVProgressHUD'
+    	ss.source_files         = 'ZYModule/ZYUnility/HUD/*.{h,m}'
+    	#ss.public_header_files  = 'ZYModule/ZYUnility/HUD/*.h'
+    end
+
   end
 
   s.exclude_files = "Classes/Exclude"
