@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYModule"
-  s.version      = "1.0.8"
+  s.version      = "1.0.9"
   s.summary      = "A short description of ZYModule."
 
   # This description is used to generate tags and improve search results.
@@ -110,6 +110,12 @@ Pod::Spec.new do |s|
     #ss.public_header_files  = 'ZYModule/DiyMJRefresh/*.h'
   end
 
+  s.subspec 'FingerVerification' do |ss|
+
+    ss.source_files         = 'ZYModule/FingerVerification/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/FingerVerification/*.h'
+  end
+
   s.subspec 'SpeechRecognizer' do |ss|
     ss.source_files          = 'ZYModule/SpeechRecognizer/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/SpeechRecognizer/*.h'
@@ -140,6 +146,13 @@ Pod::Spec.new do |s|
     ss.dependency 'SVProgressHUD'
     ss.source_files          = 'ZYModule/ZYToolsFunction/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYToolsFunction/*.h'
+  end
+
+  s.subspec 'ZYUnility' do |ss|
+    ss.dependency 'MBProgressHUD'
+    ss.dependency 'SVProgressHUD'
+    ss.source_files         = 'ZYModule/ZYUnility/*/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/ZYUnility/*/*.h'
   end
 
   s.exclude_files = "Classes/Exclude"
