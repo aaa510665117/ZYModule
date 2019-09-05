@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "60220C1F9432A04B4DBCC696657B30B7"
-               BuildableName = "libZYModule.a"
-               BlueprintName = "ZYModule"
+               BlueprintIdentifier = "1E5D3B569A640568963610601B5F8DA4"
+               BuildableName = "libHMSegmentedControl.a"
+               BlueprintName = "HMSegmentedControl"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

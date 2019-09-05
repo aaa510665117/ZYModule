@@ -16,9 +16,6 @@ AudioVoice
 ### 自定义刷新组件   
 DiyMjRefresh 
 
-### 指纹识别组件  
-FingerVerification
-
 ### 语音识别组件  
 SpeechRecognizer
 
@@ -40,6 +37,6 @@ pod spec create ZYModule
 git tag -m"pod spec" "0.0.1"  
 git push origin --tags  
 pod trunk me(login in)  
-pod lib lint --allow-warnings  
+pod lib lint --allow-warnings --use-libraries  
 pod sepc lint --allow-warnings  
-pod trunk push ZYModule.podspec --allow-warnings
+pod trunk push ZYModule.podspec --allow-warnings --use-libraries

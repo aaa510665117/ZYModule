@@ -17,6 +17,7 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
+  - HMSegmentedControl (1.5.5)
   - LKDBHelper (2.5.1):
     - LKDBHelper/standard (= 2.5.1)
   - LKDBHelper/standard (2.5.1):
@@ -26,29 +27,34 @@ PODS:
   - MJRefresh (3.2.0)
   - SVProgressHUD (2.2.5)
   - TMCache (2.1.0)
-  - ZYModule (1.0.6):
-    - ZYModule/AudioVoice (= 1.0.6)
-    - ZYModule/DiyMJRefresh (= 1.0.6)
-    - ZYModule/FingerVerification (= 1.0.6)
-    - ZYModule/SpeechRecognizer (= 1.0.6)
-    - ZYModule/ZYDataBaseManager (= 1.0.6)
-    - ZYModule/ZYExtenClass (= 1.0.6)
-    - ZYModule/ZYHttp (= 1.0.6)
-    - ZYModule/ZYToolsFunction (= 1.0.6)
-  - ZYModule/AudioVoice (1.0.6)
-  - ZYModule/DiyMJRefresh (1.0.6):
+  - ZYModule (1.0.14):
+    - ZYModule/AudioVoice (= 1.0.14)
+    - ZYModule/DiyMJRefresh (= 1.0.14)
+    - ZYModule/FingerVerification (= 1.0.14)
+    - ZYModule/SpeechRecognizer (= 1.0.14)
+    - ZYModule/ZYDataBaseManager (= 1.0.14)
+    - ZYModule/ZYExtenClass (= 1.0.14)
+    - ZYModule/ZYHttp (= 1.0.14)
+    - ZYModule/ZYToolsFunction (= 1.0.14)
+    - ZYModule/ZYUnility (= 1.0.14)
+  - ZYModule/AudioVoice (1.0.14)
+  - ZYModule/DiyMJRefresh (1.0.14):
     - MJRefresh
-  - ZYModule/FingerVerification (1.0.6)
-  - ZYModule/SpeechRecognizer (1.0.6)
-  - ZYModule/ZYDataBaseManager (1.0.6):
+  - ZYModule/FingerVerification (1.0.14)
+  - ZYModule/SpeechRecognizer (1.0.14)
+  - ZYModule/ZYDataBaseManager (1.0.14):
     - FMDB
     - LKDBHelper
-  - ZYModule/ZYExtenClass (1.0.6):
+  - ZYModule/ZYExtenClass (1.0.14):
     - Masonry
-  - ZYModule/ZYHttp (1.0.6):
+  - ZYModule/ZYHttp (1.0.14):
     - AFNetworking
     - TMCache
-  - ZYModule/ZYToolsFunction (1.0.6):
+  - ZYModule/ZYToolsFunction (1.0.14):
+    - MBProgressHUD
+    - SVProgressHUD
+  - ZYModule/ZYUnility (1.0.14):
+    - HMSegmentedControl
     - MBProgressHUD
     - SVProgressHUD
 
@@ -59,6 +65,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - FMDB
+    - HMSegmentedControl
     - LKDBHelper
     - Masonry
     - MBProgressHUD
@@ -70,13 +77,14 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
   LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
-  ZYModule: e71995fd3f1a58e74d15a22dc742abe75330d923
+  ZYModule: b810f829959a38d134a0fcd5c8d8906701fbc902
 
 PODFILE CHECKSUM: 2d0eaa1ad1400b06514240ff5c0eb5a22ae9ec9f
 

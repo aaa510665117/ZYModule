@@ -28,7 +28,6 @@
     label.textAlignment = NSTextAlignmentCenter;
     label.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 20);
     [self addSubview:label];
-    label.text = @"~~~";
     self.label = label;
 
     // 设置普通状态的动画图片
