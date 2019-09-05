@@ -150,12 +150,14 @@ Pod::Spec.new do |s|
 
   s.subspec 'ZYUnility' do |ss|
 
-    s.subspec 'HUD' do |ss|
-        ss.dependency 'MBProgressHUD'
-    	ss.dependency 'SVProgressHUD'
-    	ss.source_files         = 'ZYModule/ZYUnility/HUD/*.{h,m}'
-    	#ss.public_header_files  = 'ZYModule/ZYUnility/HUD/*.h'
-    end
+    ss.dependency 'MBProgressHUD'
+    ss.dependency 'SVProgressHUD'
+    ss.source_files         = 'ZYModule/ZYUnility/HUD/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/ZYUnility/HUD/*.h'
+
+    ss.dependency 'HMSegmentedControl'
+    ss.source_files         = 'ZYModule/ZYUnility/SosSegment/*.{h,m}'
+    #ss.public_header_files  = 'ZYModule/ZYUnility/SosSegment/*.h'
 
   end
 
