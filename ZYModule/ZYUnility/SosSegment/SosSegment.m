@@ -110,10 +110,10 @@
     {
         return;
     }
-    mh_weakSelf(self);
+    __weak typeof(self) vc = self;
     _viewArray = viewArray;
     [viewArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        mh_strongSelf(ws);
+        __strong typeof(vc) ss = vc;
         UIView * view = (UIView *)obj;
         [ss.myScrollView addSubview:view];
     }];
