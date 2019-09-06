@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYModule"
-  s.version      = "1.0.20"
+  s.version      = "1.0.21"
   s.summary      = "A short description of ZYModule."
 
   # This description is used to generate tags and improve search results.
@@ -110,6 +110,14 @@ Pod::Spec.new do |s|
     #ss.public_header_files  = 'ZYModule/DiyMJRefresh/*.h'
   end
 
+  s.subspec 'PhotoBrowser' do |ss|
+
+    ss.dependency 'SDWebImage'
+    ss.source_files         = 'ZYModule/PhotoBrowser/*.{h,m}'
+    ss.resources 	    = "ZYModule/PhotoBrowser/PhotoBrowserResources/*.{png,xib,nib,bundle}"
+    #ss.public_header_files  = 'ZYModule/PhotoBrowser/*.h'
+  end
+
   s.subspec 'FingerVerification' do |ss|
 
     ss.source_files         = 'ZYModule/FingerVerification/*.{h,m}'
@@ -160,11 +168,7 @@ Pod::Spec.new do |s|
     ss.dependency 'Masonry'
     #ss.public_header_files  = 'ZYModule/ZYUnility/DropDownMenuList/*.h'
 
-    ss.dependency 'SDWebImage'
-    #ss.public_header_files  = 'ZYModule/ZYUnility/PhotoBrowser/*.h'
-
     ss.source_files         = 'ZYModule/ZYUnility/*/*.{h,m}'
-    ss.resources = "ZYModule/ZYUnility/ZYUnilityResources/*.{png,xib,nib,bundle}"
   end
 
   s.exclude_files = "Classes/Exclude"
