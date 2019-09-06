@@ -12,5 +12,6 @@ target 'ZYModuleExample' do
 #  pod 'AFNetworking'
 #  pod 'MBProgressHUD'
 #  pod 'SVProgressHUD'
+#  pod 'SDWebImage'
 
 end

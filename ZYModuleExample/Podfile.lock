@@ -25,36 +25,43 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - MJRefresh (3.2.0)
+  - SDWebImage (5.1.1):
+    - SDWebImage/Core (= 5.1.1)
+  - SDWebImage/Core (5.1.1)
   - SVProgressHUD (2.2.5)
   - TMCache (2.1.0)
-  - ZYModule (1.0.14):
-    - ZYModule/AudioVoice (= 1.0.14)
-    - ZYModule/DiyMJRefresh (= 1.0.14)
-    - ZYModule/FingerVerification (= 1.0.14)
-    - ZYModule/SpeechRecognizer (= 1.0.14)
-    - ZYModule/ZYDataBaseManager (= 1.0.14)
-    - ZYModule/ZYExtenClass (= 1.0.14)
-    - ZYModule/ZYHttp (= 1.0.14)
-    - ZYModule/ZYToolsFunction (= 1.0.14)
-    - ZYModule/ZYUnility (= 1.0.14)
-  - ZYModule/AudioVoice (1.0.14)
-  - ZYModule/DiyMJRefresh (1.0.14):
+  - ZYModule (1.0.21):
+    - ZYModule/AudioVoice (= 1.0.21)
+    - ZYModule/DiyMJRefresh (= 1.0.21)
+    - ZYModule/FingerVerification (= 1.0.21)
+    - ZYModule/PhotoBrowser (= 1.0.21)
+    - ZYModule/SpeechRecognizer (= 1.0.21)
+    - ZYModule/ZYDataBaseManager (= 1.0.21)
+    - ZYModule/ZYExtenClass (= 1.0.21)
+    - ZYModule/ZYHttp (= 1.0.21)
+    - ZYModule/ZYToolsFunction (= 1.0.21)
+    - ZYModule/ZYUnility (= 1.0.21)
+  - ZYModule/AudioVoice (1.0.21)
+  - ZYModule/DiyMJRefresh (1.0.21):
     - MJRefresh
-  - ZYModule/FingerVerification (1.0.14)
-  - ZYModule/SpeechRecognizer (1.0.14)
-  - ZYModule/ZYDataBaseManager (1.0.14):
+  - ZYModule/FingerVerification (1.0.21)
+  - ZYModule/PhotoBrowser (1.0.21):
+    - SDWebImage
+  - ZYModule/SpeechRecognizer (1.0.21)
+  - ZYModule/ZYDataBaseManager (1.0.21):
     - FMDB
     - LKDBHelper
-  - ZYModule/ZYExtenClass (1.0.14):
+  - ZYModule/ZYExtenClass (1.0.21):
     - Masonry
-  - ZYModule/ZYHttp (1.0.14):
+  - ZYModule/ZYHttp (1.0.21):
     - AFNetworking
     - TMCache
-  - ZYModule/ZYToolsFunction (1.0.14):
+  - ZYModule/ZYToolsFunction (1.0.21):
     - MBProgressHUD
     - SVProgressHUD
-  - ZYModule/ZYUnility (1.0.14):
+  - ZYModule/ZYUnility (1.0.21):
     - HMSegmentedControl
+    - Masonry
     - MBProgressHUD
     - SVProgressHUD
 
@@ -70,6 +77,7 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - SDWebImage
     - SVProgressHUD
     - TMCache
     - ZYModule
@@ -82,10 +90,11 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
-  ZYModule: b810f829959a38d134a0fcd5c8d8906701fbc902
+  ZYModule: b1edd27814e7bf97baf15a2a5d7b9497945d103f
 
-PODFILE CHECKSUM: 2d0eaa1ad1400b06514240ff5c0eb5a22ae9ec9f
+PODFILE CHECKSUM: fb5dc2582f218933475acd6ff15cf0b59548fdb0
 
 COCOAPODS: 1.6.2
