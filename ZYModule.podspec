@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYModule"
-  s.version      = "1.0.19"
+  s.version      = "1.0.20"
   s.summary      = "A short description of ZYModule."
 
   # This description is used to generate tags and improve search results.
