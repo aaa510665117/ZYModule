@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYModule"
-  s.version      = "1.0.17"
+  s.version      = "1.0.18"
   s.summary      = "A short description of ZYModule."
 
   # This description is used to generate tags and improve search results.
@@ -161,6 +161,7 @@ Pod::Spec.new do |s|
     #ss.public_header_files  = 'ZYModule/ZYUnility/DropDownMenuList/*.h'
 
     ss.dependency 'SDWebImage'
+    ss.dependency 'SDWebImage/Core'
     #ss.public_header_files  = 'ZYModule/ZYUnility/PhotoBrowser/*.h'
 
     ss.source_files         = 'ZYModule/ZYUnility/*/*.{h,m}'
