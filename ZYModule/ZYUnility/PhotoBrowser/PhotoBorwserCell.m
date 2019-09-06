@@ -7,6 +7,7 @@
 //
 
 #import "PhotoBorwserCell.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface PhotoBorwserCell()<UIScrollViewDelegate>
 {

@@ -7,6 +7,7 @@
 //
 
 #import "PhotoBorwserThumbCell.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @implementation PhotoBorwserThumbCell
 
