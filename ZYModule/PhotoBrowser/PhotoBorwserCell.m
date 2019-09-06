@@ -81,8 +81,7 @@
         self.showImageView.image = _model.image;
     }else{
         //网络图片
-        [self.showImageView sd_setImageWithURL:_model.url placeholderImage:[UIImage imageNamed:@"zhanwei"] options:SDWebImageRefreshCached progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * targetURL) {
-        } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        [self.showImageView sd_setImageWithURL:_model.url placeholderImage:[UIImage imageNamed:@"zhanwei"] options:SDWebImageRefreshCached completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
         }];
     }
     [self resetZoomScale];

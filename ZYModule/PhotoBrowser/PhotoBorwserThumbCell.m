@@ -76,8 +76,7 @@
             vc.backImg(_model.image);
         }
     }else{
-        [self.thimageView sd_setImageWithURL:_model.url placeholderImage:[UIImage imageNamed:@"zhanwei"] options:SDWebImageRefreshCached progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * targetURL) {
-        } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        [self.thimageView sd_setImageWithURL:_model.url placeholderImage:[UIImage imageNamed:@"zhanwei"] options:SDWebImageRefreshCached completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
             if(vc.backImg){
                 vc.backImg(image);
             }
