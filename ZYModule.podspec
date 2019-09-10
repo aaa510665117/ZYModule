@@ -151,7 +151,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'ZYToolsFunction' do |ss|
     ss.dependency 'MBProgressHUD','~> 1.1.0'
-    ss.dependency 'SVProgressHUD','~> 1.1.2'
+    ss.dependency 'SVProgressHUD','~> 2.2.5'
     ss.source_files          = 'ZYModule/ZYToolsFunction/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYToolsFunction/*.h'
   end
@@ -159,7 +159,7 @@ Pod::Spec.new do |s|
   s.subspec 'ZYUnility' do |ss|
 
     ss.dependency 'MBProgressHUD','~> 1.1.0'
-    ss.dependency 'SVProgressHUD','~> 1.1.2'
+    ss.dependency 'SVProgressHUD','~> 2.2.5'
     #ss.public_header_files  = 'ZYModule/ZYUnility/HUD/*.h'
 
     ss.dependency 'HMSegmentedControl','~> 1.5.5'
