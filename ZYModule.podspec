@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYModule"
-  s.version      = "1.0.25"
+  s.version      = "1.0.26"
   s.summary      = "A short description of ZYModule."
 
   # This description is used to generate tags and improve search results.
@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'DiyMJRefresh' do |ss|
 
-    ss.dependency 'MJRefresh'
+    ss.dependency 'MJRefresh','~>3.2.0'
     ss.source_files         = 'ZYModule/DiyMJRefresh/*.{h,m}'
     #ss.resource     	    = 'ZYModule/DiyMJRefresh/DiyMJRefresh.bundle'
     #ss.public_header_files  = 'ZYModule/DiyMJRefresh/*.h'
@@ -112,7 +112,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'PhotoBrowser' do |ss|
 
-    ss.dependency 'SDWebImage'
+    ss.dependency 'SDWebImage', '~>5.0.1'
     ss.source_files         = 'ZYModule/PhotoBrowser/*.{h,m}'
     ss.resources 	    = "ZYModule/PhotoBrowser/PhotoBrowserResources/*.{png,xib,nib,bundle}"
     #ss.public_header_files  = 'ZYModule/PhotoBrowser/*.h'
@@ -130,42 +130,42 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'ZYDataBaseManager' do |ss|
-    ss.dependency 'FMDB'
-    ss.dependency 'LKDBHelper'
+    ss.dependency 'FMDB', '~> 2.7.5'
+    ss.dependency 'LKDBHelper','~> 2.5.1'
     ss.source_files          = 'ZYModule/ZYDataBaseManager/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYDataBaseManager/*.h'
   end
 
   s.subspec 'ZYExtenClass' do |ss|
-    ss.dependency 'Masonry'
+    ss.dependency 'Masonry','~>1.1.0'
     ss.source_files          = 'ZYModule/ZYExternClass/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYExternClass/*.h'
   end
 
   s.subspec 'ZYHttp' do |ss|
-    ss.dependency 'AFNetworking'
-    ss.dependency 'TMCache'
+    ss.dependency 'AFNetworking','~>3.2.1'
+    ss.dependency 'TMCache', '~> 2.1.0'
     ss.source_files          = 'ZYModule/ZYHttp/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYHttp/*.h'
   end
 
   s.subspec 'ZYToolsFunction' do |ss|
-    ss.dependency 'MBProgressHUD'
-    ss.dependency 'SVProgressHUD'
+    ss.dependency 'MBProgressHUD','~> 1.1.0'
+    ss.dependency 'SVProgressHUD','~> 1.1.2'
     ss.source_files          = 'ZYModule/ZYToolsFunction/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYToolsFunction/*.h'
   end
 
   s.subspec 'ZYUnility' do |ss|
 
-    ss.dependency 'MBProgressHUD'
-    ss.dependency 'SVProgressHUD'
+    ss.dependency 'MBProgressHUD','~> 1.1.0'
+    ss.dependency 'SVProgressHUD','~> 1.1.2'
     #ss.public_header_files  = 'ZYModule/ZYUnility/HUD/*.h'
 
-    ss.dependency 'HMSegmentedControl'
+    ss.dependency 'HMSegmentedControl','~> 1.5.5'
     #ss.public_header_files  = 'ZYModule/ZYUnility/SosSegment/*.h'
 
-    ss.dependency 'Masonry'
+    ss.dependency 'Masonry','~>1.1.0'
     #ss.public_header_files  = 'ZYModule/ZYUnility/DropDownMenuList/*.h'
 
     #ss.public_header_files  = 'ZYModule/ZYUnility/UICollectionFlowLayout/*.h'
