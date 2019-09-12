@@ -99,6 +99,9 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
+  install_resource "${PODS_ROOT}/ZLPhotoBrowser/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoActionSheet.xib"
+  install_resource "${PODS_ROOT}/ZLPhotoBrowser/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoBrowserCell.xib"
+  install_resource "${PODS_ROOT}/ZLPhotoBrowser/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoBrowser.bundle"
   install_resource "${PODS_ROOT}/ZYModule/ZYModule/PhotoBrowser/PhotoBrowserResources/pb_close@2x.png"
   install_resource "${PODS_ROOT}/ZYModule/ZYModule/PhotoBrowser/PhotoBrowserResources/pb_close@3x.png"
   install_resource "${PODS_ROOT}/ZYModule/ZYModule/PhotoBrowser/PhotoBrowserResources/pb_navBack@2x.png"
@@ -107,6 +110,9 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
+  install_resource "${PODS_ROOT}/ZLPhotoBrowser/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoActionSheet.xib"
+  install_resource "${PODS_ROOT}/ZLPhotoBrowser/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoBrowserCell.xib"
+  install_resource "${PODS_ROOT}/ZLPhotoBrowser/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoBrowser.bundle"
   install_resource "${PODS_ROOT}/ZYModule/ZYModule/PhotoBrowser/PhotoBrowserResources/pb_close@2x.png"
   install_resource "${PODS_ROOT}/ZYModule/ZYModule/PhotoBrowser/PhotoBrowserResources/pb_close@3x.png"
   install_resource "${PODS_ROOT}/ZYModule/ZYModule/PhotoBrowser/PhotoBrowserResources/pb_navBack@2x.png"

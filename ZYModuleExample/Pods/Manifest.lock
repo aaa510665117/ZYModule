@@ -14,6 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - AFSoundManager (2.1)
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
@@ -25,45 +29,80 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - MJRefresh (3.2.0)
-  - SDWebImage (5.1.1):
-    - SDWebImage/Core (= 5.1.1)
-  - SDWebImage/Core (5.1.1)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
   - SVProgressHUD (2.2.5)
   - TMCache (2.1.0)
-  - ZYModule (1.0.21):
-    - ZYModule/AudioVoice (= 1.0.21)
-    - ZYModule/DiyMJRefresh (= 1.0.21)
-    - ZYModule/FingerVerification (= 1.0.21)
-    - ZYModule/PhotoBrowser (= 1.0.21)
-    - ZYModule/SpeechRecognizer (= 1.0.21)
-    - ZYModule/ZYDataBaseManager (= 1.0.21)
-    - ZYModule/ZYExtenClass (= 1.0.21)
-    - ZYModule/ZYHttp (= 1.0.21)
-    - ZYModule/ZYToolsFunction (= 1.0.21)
-    - ZYModule/ZYUnility (= 1.0.21)
-  - ZYModule/AudioVoice (1.0.21)
-  - ZYModule/DiyMJRefresh (1.0.21):
-    - MJRefresh
-  - ZYModule/FingerVerification (1.0.21)
-  - ZYModule/PhotoBrowser (1.0.21):
-    - SDWebImage
-  - ZYModule/SpeechRecognizer (1.0.21)
-  - ZYModule/ZYDataBaseManager (1.0.21):
-    - FMDB
-    - LKDBHelper
-  - ZYModule/ZYExtenClass (1.0.21):
-    - Masonry
-  - ZYModule/ZYHttp (1.0.21):
-    - AFNetworking
-    - TMCache
-  - ZYModule/ZYToolsFunction (1.0.21):
-    - MBProgressHUD
-    - SVProgressHUD
-  - ZYModule/ZYUnility (1.0.21):
-    - HMSegmentedControl
-    - Masonry
-    - MBProgressHUD
-    - SVProgressHUD
+  - ZLPhotoBrowser (3.0.6):
+    - SDWebImage (~> 5.0.2)
+  - ZYModule (1.0.27):
+    - AFSoundManager (~> 2.1)
+    - Colours (~> 5.13.0)
+    - ZLPhotoBrowser (~> 3.0.6)
+    - ZYModule/AudioVoice (= 1.0.27)
+    - ZYModule/DiyMJRefresh (= 1.0.27)
+    - ZYModule/FingerVerification (= 1.0.27)
+    - ZYModule/PhotoBrowser (= 1.0.27)
+    - ZYModule/SpeechRecognizer (= 1.0.27)
+    - ZYModule/ZYDataBaseManager (= 1.0.27)
+    - ZYModule/ZYExtenClass (= 1.0.27)
+    - ZYModule/ZYHttp (= 1.0.27)
+    - ZYModule/ZYToolsFunction (= 1.0.27)
+    - ZYModule/ZYUnility (= 1.0.27)
+  - ZYModule/AudioVoice (1.0.27):
+    - AFSoundManager (~> 2.1)
+    - Colours (~> 5.13.0)
+    - ZLPhotoBrowser (~> 3.0.6)
+  - ZYModule/DiyMJRefresh (1.0.27):
+    - AFSoundManager (~> 2.1)
+    - Colours (~> 5.13.0)
+    - MJRefresh (~> 3.2.0)
+    - ZLPhotoBrowser (~> 3.0.6)
+  - ZYModule/FingerVerification (1.0.27):
+    - AFSoundManager (~> 2.1)
+    - Colours (~> 5.13.0)
+    - ZLPhotoBrowser (~> 3.0.6)
+  - ZYModule/PhotoBrowser (1.0.27):
+    - AFSoundManager (~> 2.1)
+    - Colours (~> 5.13.0)
+    - SDWebImage (~> 5.0.1)
+    - ZLPhotoBrowser (~> 3.0.6)
+  - ZYModule/SpeechRecognizer (1.0.27):
+    - AFSoundManager (~> 2.1)
+    - Colours (~> 5.13.0)
+    - ZLPhotoBrowser (~> 3.0.6)
+  - ZYModule/ZYDataBaseManager (1.0.27):
+    - AFSoundManager (~> 2.1)
+    - Colours (~> 5.13.0)
+    - FMDB (~> 2.7.5)
+    - LKDBHelper (~> 2.5.1)
+    - ZLPhotoBrowser (~> 3.0.6)
+  - ZYModule/ZYExtenClass (1.0.27):
+    - AFSoundManager (~> 2.1)
+    - Colours (~> 5.13.0)
+    - Masonry (~> 1.1.0)
+    - ZLPhotoBrowser (~> 3.0.6)
+  - ZYModule/ZYHttp (1.0.27):
+    - AFNetworking (~> 3.2.1)
+    - AFSoundManager (~> 2.1)
+    - Colours (~> 5.13.0)
+    - TMCache (~> 2.1.0)
+    - ZLPhotoBrowser (~> 3.0.6)
+  - ZYModule/ZYToolsFunction (1.0.27):
+    - AFSoundManager (~> 2.1)
+    - Colours (~> 5.13.0)
+    - MBProgressHUD (~> 1.1.0)
+    - SVProgressHUD (~> 2.2.5)
+    - ZLPhotoBrowser (~> 3.0.6)
+  - ZYModule/ZYUnility (1.0.27):
+    - AFSoundManager (~> 2.1)
+    - Colours (~> 5.13.0)
+    - HMSegmentedControl (~> 1.5.5)
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD (~> 1.1.0)
+    - SVProgressHUD (~> 2.2.5)
+    - ZLPhotoBrowser (~> 3.0.6)
 
 DEPENDENCIES:
   - ZYModule
@@ -71,6 +110,8 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - AFSoundManager
+    - Colours
     - FMDB
     - HMSegmentedControl
     - LKDBHelper
@@ -80,20 +121,24 @@ SPEC REPOS:
     - SDWebImage
     - SVProgressHUD
     - TMCache
+    - ZLPhotoBrowser
     - ZYModule
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AFSoundManager: 232af6154e736e6b2d8c93fafebfafd14fad7510
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
   LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
-  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
-  ZYModule: b1edd27814e7bf97baf15a2a5d7b9497945d103f
+  ZLPhotoBrowser: 8975b83f53dbcec1399ef8d1badffc0e09aa9422
+  ZYModule: 097586473c08b6c60eb4c489c7c59b8d6239eaa4
 
 PODFILE CHECKSUM: fb5dc2582f218933475acd6ff15cf0b59548fdb0
 

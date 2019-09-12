@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYModule"
-  s.version      = "1.0.26"
+  s.version      = "1.0.28"
   s.summary      = "A short description of ZYModule."
 
   # This description is used to generate tags and improve search results.
@@ -219,6 +219,8 @@ Pod::Spec.new do |s|
   #s.dependency "AFNetworking"
   #s.dependency "UAProgressView"
   #s.dependency "SBJson5", "~>5.0.0"
-  #s.dependency "MJRefresh"
+  s.dependency "Colours" , "~> 5.13.0"
+  s.dependency "AFSoundManager" , "~> 2.1"
+  s.dependency "ZLPhotoBrowser" , "~> 3.0.6"
 
 end
