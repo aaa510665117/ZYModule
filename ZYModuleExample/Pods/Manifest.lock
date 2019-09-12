@@ -36,66 +36,66 @@ PODS:
   - TMCache (2.1.0)
   - ZLPhotoBrowser (3.0.6):
     - SDWebImage (~> 5.0.2)
-  - ZYModule (1.0.27):
+  - ZYModule (1.0.28):
     - AFSoundManager (~> 2.1)
     - Colours (~> 5.13.0)
     - ZLPhotoBrowser (~> 3.0.6)
-    - ZYModule/AudioVoice (= 1.0.27)
-    - ZYModule/DiyMJRefresh (= 1.0.27)
-    - ZYModule/FingerVerification (= 1.0.27)
-    - ZYModule/PhotoBrowser (= 1.0.27)
-    - ZYModule/SpeechRecognizer (= 1.0.27)
-    - ZYModule/ZYDataBaseManager (= 1.0.27)
-    - ZYModule/ZYExtenClass (= 1.0.27)
-    - ZYModule/ZYHttp (= 1.0.27)
-    - ZYModule/ZYToolsFunction (= 1.0.27)
-    - ZYModule/ZYUnility (= 1.0.27)
-  - ZYModule/AudioVoice (1.0.27):
+    - ZYModule/AudioVoice (= 1.0.28)
+    - ZYModule/DiyMJRefresh (= 1.0.28)
+    - ZYModule/FingerVerification (= 1.0.28)
+    - ZYModule/PhotoBrowser (= 1.0.28)
+    - ZYModule/SpeechRecognizer (= 1.0.28)
+    - ZYModule/ZYDataBaseManager (= 1.0.28)
+    - ZYModule/ZYExtenClass (= 1.0.28)
+    - ZYModule/ZYHttp (= 1.0.28)
+    - ZYModule/ZYToolsFunction (= 1.0.28)
+    - ZYModule/ZYUnility (= 1.0.28)
+  - ZYModule/AudioVoice (1.0.28):
     - AFSoundManager (~> 2.1)
     - Colours (~> 5.13.0)
     - ZLPhotoBrowser (~> 3.0.6)
-  - ZYModule/DiyMJRefresh (1.0.27):
+  - ZYModule/DiyMJRefresh (1.0.28):
     - AFSoundManager (~> 2.1)
     - Colours (~> 5.13.0)
     - MJRefresh (~> 3.2.0)
     - ZLPhotoBrowser (~> 3.0.6)
-  - ZYModule/FingerVerification (1.0.27):
+  - ZYModule/FingerVerification (1.0.28):
     - AFSoundManager (~> 2.1)
     - Colours (~> 5.13.0)
     - ZLPhotoBrowser (~> 3.0.6)
-  - ZYModule/PhotoBrowser (1.0.27):
+  - ZYModule/PhotoBrowser (1.0.28):
     - AFSoundManager (~> 2.1)
     - Colours (~> 5.13.0)
     - SDWebImage (~> 5.0.1)
     - ZLPhotoBrowser (~> 3.0.6)
-  - ZYModule/SpeechRecognizer (1.0.27):
+  - ZYModule/SpeechRecognizer (1.0.28):
     - AFSoundManager (~> 2.1)
     - Colours (~> 5.13.0)
     - ZLPhotoBrowser (~> 3.0.6)
-  - ZYModule/ZYDataBaseManager (1.0.27):
+  - ZYModule/ZYDataBaseManager (1.0.28):
     - AFSoundManager (~> 2.1)
     - Colours (~> 5.13.0)
     - FMDB (~> 2.7.5)
     - LKDBHelper (~> 2.5.1)
     - ZLPhotoBrowser (~> 3.0.6)
-  - ZYModule/ZYExtenClass (1.0.27):
+  - ZYModule/ZYExtenClass (1.0.28):
     - AFSoundManager (~> 2.1)
     - Colours (~> 5.13.0)
     - Masonry (~> 1.1.0)
     - ZLPhotoBrowser (~> 3.0.6)
-  - ZYModule/ZYHttp (1.0.27):
+  - ZYModule/ZYHttp (1.0.28):
     - AFNetworking (~> 3.2.1)
     - AFSoundManager (~> 2.1)
     - Colours (~> 5.13.0)
     - TMCache (~> 2.1.0)
     - ZLPhotoBrowser (~> 3.0.6)
-  - ZYModule/ZYToolsFunction (1.0.27):
+  - ZYModule/ZYToolsFunction (1.0.28):
     - AFSoundManager (~> 2.1)
     - Colours (~> 5.13.0)
     - MBProgressHUD (~> 1.1.0)
     - SVProgressHUD (~> 2.2.5)
     - ZLPhotoBrowser (~> 3.0.6)
-  - ZYModule/ZYUnility (1.0.27):
+  - ZYModule/ZYUnility (1.0.28):
     - AFSoundManager (~> 2.1)
     - Colours (~> 5.13.0)
     - HMSegmentedControl (~> 1.5.5)
@@ -138,7 +138,7 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
   ZLPhotoBrowser: 8975b83f53dbcec1399ef8d1badffc0e09aa9422
-  ZYModule: 097586473c08b6c60eb4c489c7c59b8d6239eaa4
+  ZYModule: be7da83f06de26aa66614270eb50e2bb4d185ff5
 
 PODFILE CHECKSUM: fb5dc2582f218933475acd6ff15cf0b59548fdb0
 

@@ -7,7 +7,7 @@
 //  数据库管理类
 
 #import <Foundation/Foundation.h>
-#import "LKDBHelper.h"
+#import <LKDBHelper/LKDBHelper.h>
 
 @interface ZYDataBaseManager : NSObject
 
