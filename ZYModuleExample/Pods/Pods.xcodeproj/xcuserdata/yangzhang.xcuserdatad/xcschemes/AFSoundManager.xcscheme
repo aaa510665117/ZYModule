@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7521E914C66AB12A706A3CAF8D2BC76D"
+               BlueprintIdentifier = "270712CBC4DE4ADA7E6B37F044270512"
                BuildableName = "libAFSoundManager.a"
                BlueprintName = "AFSoundManager"
                ReferencedContainer = "container:Pods.xcodeproj">

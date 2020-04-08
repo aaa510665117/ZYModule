@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-    s.platform     = :ios, "8.0"
+    s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -143,7 +143,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'ZYHttp' do |ss|
-    ss.dependency 'AFNetworking','~>3.2.1'
+    ss.dependency 'AFNetworking','~>4.0.0'
     ss.dependency 'TMCache', '~> 2.1.0'
     ss.source_files          = 'ZYModule/ZYHttp/*.{h,m}'
     #ss.public_header_files  = 'ZYModule/ZYHttp/*.h'

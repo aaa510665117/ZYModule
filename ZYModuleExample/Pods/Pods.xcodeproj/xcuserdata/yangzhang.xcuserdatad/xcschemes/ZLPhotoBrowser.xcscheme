@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5ED894027740417AA763CF835462BD32"
+               BlueprintIdentifier = "2FAF03761A44702490259F857A848B42"
                BuildableName = "libZLPhotoBrowser.a"
                BlueprintName = "ZLPhotoBrowser"
                ReferencedContainer = "container:Pods.xcodeproj">

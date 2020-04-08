@@ -526,7 +526,7 @@
 				DEVELOPMENT_TEAM = CF82G8A9HM;
 				GCC_PREFIX_HEADER = "ZYModuleExample/ZYModule-Prefix.pch";
 				INFOPLIST_FILE = ZYModuleExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.winning.ZYModuleExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -544,7 +544,7 @@
 				DEVELOPMENT_TEAM = CF82G8A9HM;
 				GCC_PREFIX_HEADER = "ZYModuleExample/ZYModule-Prefix.pch";
 				INFOPLIST_FILE = ZYModuleExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.winning.ZYModuleExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";

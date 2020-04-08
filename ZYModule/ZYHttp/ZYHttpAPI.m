@@ -100,15 +100,17 @@ static dispatch_once_t onceToken;
     
     [params setValue:@"phone" forKey:@"device"];      //设备类型
     
-    [self POST:requestUrl parameters:params progress:nil success:^(NSURLSessionDataTask *operation, id responseObject) {
+    [self POST:requestUrl parameters:params headers:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         NSDictionary * dictReturn = [ZYHttpAPI ZYHttpJSON:responseObject];
         (success)? success(dictReturn):nil;
         NSLog(@"\nAPI: %@  Info:: %@",requestUrl,dictReturn);
         
-    } failure:^(NSURLSessionDataTask *operation, NSError *error) {
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        
         NSLog(@"\nAPI: requestOrdinary ERROR :: %@", error);
         (failure)? failure(nil):nil;
+        
     }];
 }
 
@@ -127,7 +129,7 @@ static dispatch_once_t onceToken;
     
     [params setValue:@"phone" forKey:@"device"];      //设备类型
 
-    [self GET:requestUrl parameters:params progress:nil success:^(NSURLSessionDataTask *operation, id responseObject) {
+    [self GET:requestUrl parameters:params headers:nil progress:nil success:^(NSURLSessionDataTask *operation, id responseObject) {
         
         NSDictionary * dictReturn = [ZYHttpAPI ZYHttpJSON:responseObject];
         (success)? success(dictReturn):nil;
@@ -152,7 +154,7 @@ static dispatch_once_t onceToken;
     NSString *requestUrl = [NSString stringWithFormat:@"%@",apiurl];
     [param setValue:@"phone" forKey:@"device"];      //设备类型
 
-    NSURLSessionDataTask *operation = [self POST:requestUrl parameters:param  constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+    NSURLSessionDataTask *operation = [self POST:requestUrl parameters:param  headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
         
         //有文件再上传
         if(file != nil && [file isKindOfClass:[UIImage class]])
@@ -201,7 +203,7 @@ static dispatch_once_t onceToken;
     NSString *requestUrl = [NSString stringWithFormat:@"%@",apiurl];
     [param setValue:@"phone" forKey:@"device"];      //设备类型
     
-    NSURLSessionDataTask *operation = [self POST:requestUrl parameters:param constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+    NSURLSessionDataTask *operation = [self POST:requestUrl parameters:param headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
 
         for (int i=0; i<fileAry.count; i++) {
             

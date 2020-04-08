@@ -1,17 +1,19 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '8.0'
+# platform :ios, '9.0'
+
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 
 target 'ZYModuleExample' do
   inhibit_all_warnings!
   pod 'ZYModule'
-#  pod 'MJRefresh'
-#  pod 'FMDB'
-#  pod 'LKDBHelper'
-#  pod 'Masonry'
-#  pod 'TMCache'
-#  pod 'AFNetworking'
-#  pod 'MBProgressHUD'
-#  pod 'SVProgressHUD'
-#  pod 'SDWebImage'
-
+#  pod 'MJRefresh', '~>3.2.0'
+#  pod 'FMDB', '~> 2.7.5'
+#  pod 'LKDBHelper','~> 2.5.1'
+#  pod 'Masonry','~>1.1.0'
+#  pod 'TMCache', '~> 2.1.0'
+#  pod 'AFNetworking','~>4.0'
+#  pod 'MBProgressHUD','~> 1.1.0'
+#  pod 'SVProgressHUD','~> 2.2.5'
+#  pod 'SDWebImage', '~>5.0.1'
+#  pod 'HMSegmentedControl', '~> 1.5.5'
 end
